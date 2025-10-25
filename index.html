@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mes Projets Web</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #0077b6;
+        color: white;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    .projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2rem;
+        gap: 20px;
+    }
+    .project-card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        width: 250px;
+        text-align: center;
+        padding: 1rem;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+    .project-card a {
+        text-decoration: none;
+        color: #0077b6;
+        font-weight: bold;
+        display: block;
+        margin-top: 1rem;
+    }
+    .project-card h2 {
+        margin: 0.5rem 0;
+        font-size: 1.2rem;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Mes Projets Web</h1>
+    <p>Liste de mes projets réalisés en front-end et full-stack</p>
+</header>
+
+<div class="projects-container">
+    <div class="project-card">
+        <h2>Landing Page</h2>
+        <a href="./Landing-Page/index.html" target="_blank">Voir le projet</a>
+    </div>
+
+    <div class="project-card">
+        <h2>Company website</h2>
+        <a href="./Company-website/index.html" target="_blank">Voir le projet</a>
+    </div>
+
+    <div class="project-card">
+        <h2>Portfolio Website</h2>
+        <a href="./Portfolio-Website/index.html" target="_blank">Voir le projet</a>
+    </div>
+
+    <div class="project-card">
+        <h2>Contact Form</h2>
+        <a href="./contact-form/index.html" target="_blank">Voir le projet</a>
+    </div>
+
+    <div class="project-card">
+        <h2>Todo List App</h2>
+        <a href="./todo-list/index.html" target="_blank">Voir le projet</a>
+    </div>
+
+    <div class="project-card">
+        <h2>Hero Application</h2>
+        <a href="./hero-app/index.html" target="_blank">Voir le projet</a>
+    </div>
+
+    <div class="project-card">
+        <h2>Address Book</h2>
+        <a href="./address-book/index.html" target="_blank">Voir le projet</a>
+    </div>
+
+    <div class="project-card">
+        <h2>Project Management System</h2>
+        <a href="./project-management/index.html" target="_blank">Voir le projet</a>
+    </div>
+</div>
+
+</body>
+</html>
