@@ -1,0 +1,327 @@
+body
+{
+margin:0px;
+}
+.Nav-bar
+{
+background-color:rgba(173, 216, 230, 0.212);
+padding:0px 100px;
+}
+.bold
+{
+font-weight:600;
+color:black;
+}
+.dimension
+{
+width:140px;
+height:50px;
+}
+.bold:hover
+{
+color: orangered!important;;
+}
+/* NavBar Style */
+/* Hero Style */
+.hero
+{
+padding:0px 100px;
+background-color:rgba(173, 216, 230, 0.212) ;
+}
+.hero-text
+{
+margin-top:60px;
+}
+.hero-text>span
+{
+line-height:100px;
+font-size:25px;
+font-weight:500;
+}
+.hero-text>h1
+{
+font-size:75px;
+font-weight:600;
+text-transform: uppercase;
+line-height:100px;
+}
+.bold-para
+{
+font-size:21px;
+font-weight:700;
+}
+.para 
+{
+color:gray;
+text-transform:capitalize;
+font-size:18px;
+}
+.orange
+{
+border:none;
+border-radius:5px;
+background:orangered;
+color:white;
+}
+.image
+{
+text-align:end;
+}
+.image>img
+{
+width:100%;
+}
+.dimensionsm
+{
+height:40px;
+width:100px;
+font-weight:600;
+}
+/* services styles */
+.services
+{
+padding:80px 100px;
+}
+.services>div>div>span
+{
+color:orangered;
+font-weight:700;
+font-size:20px;
+}
+.services>div>div>h3
+{
+font-weight:700;
+font-size:25px;
+}
+
+.service2
+{
+
+margin:0px 20px;
+
+}
+.imgs
+{
+text-align:end;
+padding:0px;
+}
+.bd
+{
+border-color:gray;
+}
+.service:hover
+{
+
+}
+.service2:hover
+{
+    
+}
+/* services end */
+/* about style */
+.about
+{
+
+}
+.aboutimg
+{
+padding:0px;
+
+}
+.aboutimg>img
+{
+width:120%;
+}
+.about-txt
+{
+margin-top:42px;
+margin-left:-90px;
+}
+.spo
+{
+color:orangered;
+font-size:21px;
+font-weight:600;
+}
+.about-txt>h2
+{
+font-size:45px;
+}
+.height
+{
+line-height:32px;
+}
+.ap1
+{
+color:gray;
+font-size: 17px;
+font-weight:400;
+}
+.sps
+{
+color:gray;
+font-size:18px;
+}
+.dimensionss
+{
+height:40px;
+width:160px;
+}
+
+/* about end */
+/* offer stlye */
+.offer>div>h2
+{
+font-size:45px;
+}
+.offer
+{
+padding:0px 100px;
+margin-top:100px;
+}
+.cards
+{
+border-radius:12px; 
+width:48%;
+transition:;
+cursor: pointer;
+}
+.cards:hover
+{
+border:2px solid orangered;
+}
+.cards>h3
+{
+line-height:32px;
+}
+.cards>p
+{
+color:gray;
+}
+.cards>span
+{
+background-color:orangered;
+}
+.cds
+{
+margin-bottom:20px;
+}
+/* offer end */
+/* stats style */
+.stats
+{
+margin-top:100px;
+background-color: orangered;
+padding:60px 100px;
+}
+.stats>div>h1
+{
+font-size:60px;
+}
+
+/* stats end */
+/* progress style */
+.progresses
+{
+padding:50px 100px;
+}
+.progresses>div>h2
+{
+font-size:35px;
+margin:20px 0px;
+}
+.bar
+{
+margin-bottom:-15px;
+margin-top:25px;
+}
+.mbs
+{
+margin-bottom:-15px;
+}
+.pb
+{
+font-weight:600;
+}
+/* progress end */
+/* portfolio style */
+.portfolio
+{
+padding:80px 100px;
+}
+.pt
+{
+margin-bottom:-3px;
+}
+.portfolio>div>img
+{
+width:102%;
+}
+/* portfolio end */
+/* forms style */
+.forms
+{
+background-color: orangered;
+padding:50px 100px;
+}
+.forms>h1
+{
+line-height:70px;
+}
+.forms>p
+{
+font-weight:400;
+}
+/* forms end */
+/* footer style */
+.foot
+{
+background-color: orangered;
+margin-top: 2px;
+}
+.foot>h6
+{
+font-size:1rem;
+}
+@media only screen and (max-width:991px) 
+{
+.service2
+{
+margin:0px -10px;
+}
+.aboutimg>img
+{
+width:80%;
+}
+.about
+{
+margin:0px 100px;
+}
+.about-txt
+{
+margin-top:0px;
+margin-left:0px;
+}
+.cards
+{
+border-radius:12px; 
+width:100%;
+}
+.cds2
+{
+margin-bottom:20px;
+}
+.stats>div
+{
+margin:20px 0px;
+}
+.spacing
+{
+margin-bottom:15px;
+}
+.bold
+{
+text-align:start;
+}
+}
+/* footer end */
